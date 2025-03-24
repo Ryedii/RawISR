@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file:///data2/wangtianyu/DataSet/.idea/DataSet.iml" filepath="/data2/wangtianyu/DataSet/.idea/DataSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RISR.iml" filepath="$PROJECT_DIR$/.idea/RISR.iml" />
+      <module fileurl="file:///data1/wangtianyu/.idea/wangtianyu.iml" filepath="/data1/wangtianyu/.idea/wangtianyu.iml" />
+    </modules>
+  </component>
+</project>

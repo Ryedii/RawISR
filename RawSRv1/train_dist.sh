@@ -1,0 +1,1 @@
+/home/wangtianyu/miniconda3/envs/risr/bin/python /home/wangtianyu/RISR/train_dist.py --config /home/wangtianyu/RISR/config.json
