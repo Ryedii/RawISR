@@ -1,0 +1,36 @@
+{
+  "log_dir": "./log",
+  "disable_tqdm": true,
+  "device": "cuda:3",
+  "world_size": 4,
+  "batch_size": 4,
+
+  "pretrained": false,
+  "pretrained_model": "/home/wangtianyu/RISR/log/train0319-193038/model_epoch_320.pth",
+  "train_dataset_dir": "/data1/wangtianyu/n25_rawsr/dw0319-102509/train",
+  "validate_dataset_dir": "/data1/wangtianyu/n25_rawsr/dw0319-102509/validate",
+  "predict_dataset_dir": "",
+
+  "max_epoch": 640,
+
+  "learning_rate": 2e-4,
+  "decay_coef": 0.96,
+  "decay_freq": 16,
+  "max_decay_epoch": 320,
+  "lowest_learning_rate": 1e-5,
+  "T_max": 500,
+  "eta_min": 1e-5,
+
+  "if_validate": true,
+  "validate_freq": 10,
+  "save_freq": 80,
+
+  "inner_channels": 128,
+  "kernel_size_conv": 3,
+  "kernel_size_pool": 4,
+  "kernel_size_dense": 3,
+  "num_layers_dense": 8,
+  "growth_rate_dense": 8,
+  "bottle_output": 256,
+  "depths": [5, 5, 5, 5]
+}
